@@ -1,0 +1,8 @@
+(executable
+ (name main)
+ (libraries ounit2 yojson wordle))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
+

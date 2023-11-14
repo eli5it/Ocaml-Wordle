@@ -1,0 +1,10 @@
+(executable
+ (name main)
+ (modes js)
+ (preprocess (pps js_of_ocaml-ppx))
+ (libraries wordle ANSITerminal js_of_ocaml))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
+

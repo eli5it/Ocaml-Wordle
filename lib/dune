@@ -1,0 +1,11 @@
+(library
+ (name wordle)
+ (public_name wordle)
+ (libraries yojson ANSITerminal)
+ (instrumentation
+  (backend bisect_ppx)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))

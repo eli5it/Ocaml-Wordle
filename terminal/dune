@@ -1,0 +1,7 @@
+(executable
+ (public_name wordle)
+ (name main)
+ (libraries wordle ANSITerminal))
+(env
+  (dev
+    (flags (:standard -warn-error -A))))

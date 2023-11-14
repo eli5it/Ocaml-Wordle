@@ -1,0 +1,22 @@
+If you have not already, use the textbook instructions to install
+ocaml and the packages used in CS3110.
+
+Then run the following commands to install necessary packages. 
+
+- opam install ANSITerminal
+- opam install yojson
+- opam install js_of_ocaml js_of_ocaml-ppx
+
+Navigate to the directory containing our submission
+Navigate to the wordle directory using the following command
+- cd wordle
+Run the following to compile the code
+- dune build
+
+To play a game on the terminal run 
+- make play 
+
+To play the web version run 
+-make web_play
+  => If the above does not work, open the web directory inside of the wordle directory and 
+  drag index.html into your browser.

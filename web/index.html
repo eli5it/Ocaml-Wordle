@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header>
+      <div></div>
+      <h1 class="main-header">Wordle</h1>
+      <div class="icon-container">
+          <button class="display-stats-button">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="28"
+            viewBox="4 4 24 24"
+            width="28"
+            class="leaderboard-icon"
+            data-testid="icon-statistics"
+          >
+            <path
+              fill="black"
+              d="M20.6666 14.8333V5.5H11.3333V12.5H4.33325V26.5H27.6666V14.8333H20.6666ZM13.6666 7.83333H18.3333V24.1667H13.6666V7.83333ZM6.66659 14.8333H11.3333V24.1667H6.66659V14.8333ZM25.3333 24.1667H20.6666V17.1667H25.3333V24.1667Z"
+            ></path>
+          </svg>
+          </button>
+       
+        </a>
+        <button class="login-button">
+          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="User / User_01">
+            <path id="Vector" d="M19 21C19 17.134 15.866 14 12 14C8.13401 14 5 17.134 5 21M12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7C16 9.20914 14.2091 11 12 11Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            </svg>
+          </svg>
+        </button>
+      
+      </div>
+    </header>
+    <div id="root">
+      <div>
+        <h2>Word Length</h2>
+        <div id="button-container" class="button-container">
+          <button class="word-length-button" id="button-4">4</button>
+          <button class="word-length-button selected" id="button-5">5</button>
+          <button class="word-length-button" id="button-6">6</button>
+          <button class="word-length-button" id="button-7">7</button>
+          <button class="word-length-button" id="button-8">8</button>
+        </div>
+      </div>
+      <main id="main">
+        <div id="keyboard" class="keyboard">
+          <div class="keyboard-row">
+            <button id="keyboard-q" class="keyboard-button">Q</button>
+            <button id="keyboard-w" class="keyboard-button">W</button>
+            <button id="keyboard-e" class="keyboard-button">E</button>
+            <button id="keyboard-r" class="keyboard-button">R</button>
+            <button id="keyboard-t" class="keyboard-button">T</button>
+            <button id="keyboard-y" class="keyboard-button">Y</button>
+            <button id="keyboard-u" class="keyboard-button">U</button>
+            <button id="keyboard-i" class="keyboard-button">I</button>
+            <button id="keyboard-o" class="keyboard-button">O</button>
+            <button id="keyboard-p" class="keyboard-button">P</button>
+          </div>
+          <div class="keyboard-row keyboard-center">
+            <button id="keyboard-a" class="keyboard-button">A</button>
+            <button id="keyboard-s" class="keyboard-button">S</button>
+            <button id="keyboard-d" class="keyboard-button">D</button>
+            <button id="keyboard-f" class="keyboard-button">F</button>
+            <button id="keyboard-g" class="keyboard-button">G</button>
+            <button id="keyboard-h" class="keyboard-button">H</button>
+            <button id="keyboard-j" class="keyboard-button">J</button>
+            <button id="keyboard-k" class="keyboard-button">K</button>
+            <button id="keyboard-l" class="keyboard-button">L</button>
+          </div>
+          <div class="keyboard-row">
+            <button class="enter-button">Enter</button>
+            <button id="keyboard-z" class="keyboard-button">Z</button>
+            <button id="keyboard-x" class="keyboard-button">X</button>
+            <button id="keyboard-c" class="keyboard-button">C</button>
+            <button id="keyboard-v" class="keyboard-button">V</button>
+            <button id="keyboard-b" class="keyboard-button">B</button>
+            <button id="keyboard-n" class="keyboard-button">N</button>
+            <button id="keyboard-m" class="keyboard-button">M</button>
+            <button class="delete-button">Del</button>
+          </div>
+        </div>
+  
+        <div id="game-board" class="game-board">
+        
+        </div>
+      </main>
+    </div>
+  
+    <script type="text/javascript" src="data.js"></script>
+    <script
+      type="text/javascript"
+      src="../_build/default/web/main.bc.js"
+    ></script>
+  </body>
+</html>

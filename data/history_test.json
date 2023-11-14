@@ -1,0 +1,10 @@
+{
+  "games": [
+    { "turns": 4, "answer": "forty", "solved": false, "player": "Eli" },
+    { "turns": 4, "answer": "qatar", "solved": false, "player": "Eli" },
+    { "turns": 4, "answer": "roman", "solved": false, "player": "Eli" },
+    { "turns": 4, "answer": "soothing", "solved": false, "player": "Schmeli" },
+    { "turns": 4, "answer": "healthy", "solved": false, "player": "Schmeli" },
+    { "turns": 4, "answer": "romans", "solved": false, "player": "Schmeli" }
+  ]
+}
